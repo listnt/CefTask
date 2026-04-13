@@ -2,9 +2,9 @@
 
 void App::initScene() {
   left = 0.0f / (1.0 * userData->WindowHeight / userData->WindowWidth);
-  right = 48.0f / (1.0 * userData->WindowHeight / userData->WindowWidth);
+  right = 72.0f / (1.0 * userData->WindowHeight / userData->WindowWidth);
   bottom = 0.0f;
-  top = 48.0;
+  top = 72.0;
 
   projection = computeOrthoMatrix(left, right, bottom, top, -100, 100);
   camera = Matrix4x4();

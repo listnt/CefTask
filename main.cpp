@@ -161,8 +161,8 @@ void Draw() {
 int init(const unsigned int width, const unsigned int height) {
   std::cout << "starting OpenGL app" << std::endl;
 
-  userData->WindowWidth = 640;
-  userData->WindowHeight = 480;
+  userData->WindowWidth = 1280;
+  userData->WindowHeight = 720;
   userData->keyFunc = NULL;
 
   if (!initWindow()) {
@@ -200,7 +200,7 @@ int main(int argc, char *argv[]) {
     return exit_code;
   }
 
-  if (!init(640, 480)) {
+  if (!init(1280, 720)) {
     return EXIT_FAILURE;
   }
 

@@ -13,8 +13,8 @@ void RenderHandler::OnPaint(CefRefPtr<CefBrowser> browser,
 }
 
 Cef::Cef() {
-  lx = 64;
-  ly = 48;
+  lx = 128;
+  ly = 72;
 
   points = {
       Vector2f(0.0, ly / 2.0),

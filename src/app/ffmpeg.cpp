@@ -47,8 +47,8 @@ FFmpeg::FFmpeg() {
   track.frame = av_frame_alloc();
   track.pkt = av_packet_alloc();
 
-  lx = 64;
-  ly = 48;
+  lx = 128;
+  ly = 72;
 
   points = {
       Vector2f(0.0, 0.0),           Vector2f(0.0, ly / 4.0),
