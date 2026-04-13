@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* Define the animation sequence */
+        @keyframes myMove {
+            0% {
+                background-color: red;
+                left: 0px;
+                top: 0px;
+            }
+
+            50% {
+                background-color: blue;
+                left: 200px;
+                top: 0px;
+            }
+
+            100% {
+                background-color: red;
+                left: 0px;
+                top: 0px;
+            }
+        }
+
+        /* Apply the animation to a div */
+        .animated-box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+            /* Shorthand: name duration timing-function iteration-count */
+            animation: myMove 4s ease-in-out infinite;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="animated-box"></div>
+
+</body>
+
+</html>
